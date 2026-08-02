@@ -1,8 +1,29 @@
 aid: wheelocity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wheelocity.png
 name: Wheelocity
-description: Wheelocity is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Wheelocity (Wheelocity Fresh Private Limited) is a Bangalore, India based
+  logistics and supply-chain company building daily fresh-produce and grocery
+  delivery networks for underserved rural markets across India, which it frames
+  as "the access rails for Bharat commerce." Its phygital (online plus offline)
+  model combines location intelligence, IoT hardware, cold-chain and predictive
+  demand forecasting with an electric-vehicle first-mile and last-mile fleet and
+  a consumer app branded WoW. The company reports serving more than one million
+  households, running over 100,000 km of EV movement daily and avoiding tens of
+  thousands of kilograms of produce waste each day. Wheelocity is a venture-backed
+  operating company (Lightspeed Venture Partners portfolio) and, as of this
+  profile, publishes no public developer portal, API documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/wheelocity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Supply Chain
+- Agriculture
+- Grocery Delivery
+- Rural Commerce
+- Cold Chain
+- Electric Vehicles
+- India
 apis: []
+common:
+- type: Website
+  url: https://www.wheelocity.com/
+- type: TermsOfService
+  url: https://www.wheelocity.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.wheelocity.com/privacy-policy
+- type: DomainSecurity
+  url: security/wheelocity-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
